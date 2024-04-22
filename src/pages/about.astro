@@ -1,6 +1,7 @@
 ---
 
 import MainGridLayout from "../layouts/MainGridLayout.astro";
+import  SpeedInsights  from "@vercel/speed-insights/astro"
 
 import { getEntry } from 'astro:content'
 import {i18n} from "../i18n/translation";
@@ -20,4 +21,5 @@ const { Content } = await aboutPost.render()
             </Markdown>
         </div>
     </div>
+    <SpeedInsights/>
 </MainGridLayout>
