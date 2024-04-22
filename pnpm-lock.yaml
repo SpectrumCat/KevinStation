@@ -26,6 +26,9 @@ dependencies:
   '@swup/astro':
     specifier: ^1.4.0
     version: 1.4.0
+  '@vercel/analytics':
+    specifier: ^1.2.2
+    version: 1.2.2
   '@vercel/speed-insights':
     specifier: ^1.0.10
     version: 1.0.10(svelte@4.2.12)
